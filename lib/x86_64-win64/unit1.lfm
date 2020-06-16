@@ -1,0 +1,506 @@
+object FormUtama: TFormUtama
+  Left = 217
+  Height = 600
+  Top = 116
+  Width = 1122
+  Caption = 'TUGAS 3 & 4'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '2.0.6.0'
+  object ENama: TEdit
+    Left = 128
+    Height = 23
+    Top = 94
+    Width = 150
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 94
+    Width = 80
+    Caption = 'Nama Lengkap'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 290
+    Height = 15
+    Top = 96
+    Width = 94
+    Caption = 'Tempat / Tgl Lahir'
+    ParentColor = False
+  end
+  object ETTL: TEdit
+    Left = 386
+    Height = 23
+    Top = 96
+    Width = 150
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 136
+    Width = 38
+    Caption = 'Alamat'
+    ParentColor = False
+  end
+  object EAlamat: TEdit
+    Left = 128
+    Height = 23
+    Top = 136
+    Width = 150
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 176
+    Width = 29
+    Caption = 'Email'
+    ParentColor = False
+  end
+  object EEmail: TEdit
+    Left = 128
+    Height = 23
+    Top = 176
+    Width = 150
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 15
+    Top = 216
+    Width = 60
+    Caption = 'No Telepon'
+    ParentColor = False
+  end
+  object ENoTelp: TEdit
+    Left = 128
+    Height = 23
+    Top = 216
+    Width = 150
+    TabOrder = 4
+  end
+  object Label6: TLabel
+    Left = 290
+    Height = 15
+    Top = 136
+    Width = 71
+    Caption = 'Jenis Kelamin'
+    ParentColor = False
+  end
+  object EJenisKelamin: TEdit
+    Left = 386
+    Height = 23
+    Top = 136
+    Width = 150
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 290
+    Height = 15
+    Top = 176
+    Width = 38
+    Caption = 'Agama'
+    ParentColor = False
+  end
+  object EAgama: TEdit
+    Left = 386
+    Height = 23
+    Top = 176
+    Width = 150
+    TabOrder = 6
+  end
+  object Label8: TLabel
+    Left = 290
+    Height = 15
+    Top = 216
+    Width = 32
+    Caption = 'Status'
+    ParentColor = False
+  end
+  object EStatus: TEdit
+    Left = 386
+    Height = 23
+    Top = 216
+    Width = 150
+    TabOrder = 7
+  end
+  object Label9: TLabel
+    Left = 32
+    Height = 15
+    Top = 256
+    Width = 33
+    Caption = 'Tinggi'
+    ParentColor = False
+  end
+  object ETinggi: TEdit
+    Left = 128
+    Height = 23
+    Top = 256
+    Width = 150
+    TabOrder = 8
+  end
+  object Label10: TLabel
+    Left = 290
+    Height = 15
+    Top = 256
+    Width = 27
+    Caption = 'Berat'
+    ParentColor = False
+  end
+  object EBerat: TEdit
+    Left = 386
+    Height = 23
+    Top = 256
+    Width = 150
+    TabOrder = 9
+  end
+  object Label11: TLabel
+    Left = 32
+    Height = 15
+    Top = 296
+    Width = 86
+    Caption = 'Golongan Darah'
+    ParentColor = False
+  end
+  object EGolonganDarah: TEdit
+    Left = 128
+    Height = 23
+    Top = 296
+    Width = 150
+    TabOrder = 10
+  end
+  object Label12: TLabel
+    Left = 290
+    Height = 15
+    Top = 296
+    Width = 75
+    Caption = 'Warna Negara'
+    ParentColor = False
+  end
+  object EWargaNegara: TEdit
+    Left = 386
+    Height = 23
+    Top = 296
+    Width = 150
+    TabOrder = 11
+  end
+  object Panel1: TPanel
+    Left = 32
+    Height = 50
+    Top = 24
+    Width = 504
+    BevelColor = 4194304
+    Caption = 'Data Pribadi'
+    Color = 4194304
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Panel2: TPanel
+    Left = 584
+    Height = 50
+    Top = 24
+    Width = 504
+    BevelColor = 4194304
+    Caption = 'Riwayat Pendidikan dan Organisasi'
+    Color = 4194304
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Label13: TLabel
+    Left = 584
+    Height = 15
+    Top = 96
+    Width = 14
+    Caption = 'SD'
+    ParentColor = False
+  end
+  object ESD: TEdit
+    Left = 680
+    Height = 23
+    Top = 96
+    Width = 408
+    TabOrder = 14
+  end
+  object ESMP: TEdit
+    Left = 680
+    Height = 23
+    Top = 136
+    Width = 408
+    TabOrder = 15
+  end
+  object Label14: TLabel
+    Left = 584
+    Height = 15
+    Top = 136
+    Width = 24
+    Caption = 'SMP'
+    ParentColor = False
+  end
+  object ESMA: TEdit
+    Left = 680
+    Height = 23
+    Top = 176
+    Width = 408
+    TabOrder = 16
+  end
+  object Label15: TLabel
+    Left = 584
+    Height = 15
+    Top = 176
+    Width = 25
+    Caption = 'SMA'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 584
+    Height = 15
+    Top = 248
+    Width = 55
+    Caption = 'Organisasi'
+    ParentColor = False
+  end
+  object MOrganisasi: TMemo
+    Left = 680
+    Height = 74
+    Top = 248
+    Width = 408
+    TabOrder = 17
+  end
+  object DBGrid1: TDBGrid
+    Left = 32
+    Height = 200
+    Top = 376
+    Width = 1056
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    Flat = True
+    PopupMenu = PopupMenu1
+    TabOrder = 18
+    OnCellClick = DBGrid1CellClick
+  end
+  object Button1: TButton
+    Left = 128
+    Height = 25
+    Top = 328
+    Width = 75
+    Caption = 'Tambah'
+    OnClick = Button1Click
+    TabOrder = 19
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 25
+    Top = 328
+    Width = 64
+    Caption = 'Ubah'
+    OnClick = Button2Click
+    TabOrder = 20
+  end
+  object EKampus: TEdit
+    Left = 680
+    Height = 23
+    Top = 216
+    Width = 408
+    TabOrder = 21
+  end
+  object Label17: TLabel
+    Left = 583
+    Height = 15
+    Top = 216
+    Width = 43
+    Caption = 'Kampus'
+    ParentColor = False
+  end
+  object SQLQuery1: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    FieldDefs = <    
+      item
+        Name = 'id_cv'
+        DataType = ftAutoInc
+        Precision = -1
+      end    
+      item
+        Name = 'nama'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'ttl'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'alamat'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'email'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'notelp'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'jenis_kelamin'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'agama'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'status'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'tinggi'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'berat'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'golongan_darah'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'warga_negara'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'sd'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'smp'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'sma'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'kampus'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'organisasi'
+        DataType = ftMemo
+        Precision = -1
+      end    
+      item
+        Name = 'created_at'
+        DataType = ftDateTime
+        Precision = -1
+      end    
+      item
+        Name = 'updated_at'
+        DataType = ftDateTime
+        Precision = -1
+      end>
+    Active = True
+    Database = MySQL56Connection1
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'SELECT * FROM cv'
+    )
+    Params = <>
+    left = 936
+  end
+  object SQLQuery2: TSQLQuery
+    FieldDefs = <>
+    Database = MySQL56Connection1
+    Transaction = SQLTransaction1
+    Params = <>
+    left = 976
+  end
+  object MySQL56Connection1: TMySQL56Connection
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'lazarus_cv'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    UserName = 'root'
+    HostName = 'localhost'
+    SkipLibraryVersionCheck = False
+    left = 1056
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = True
+    Database = MySQL56Connection1
+    left = 1016
+  end
+  object DataSource1: TDataSource
+    DataSet = SQLQuery1
+    left = 1096
+  end
+  object PopupMenu1: TPopupMenu
+    left = 538
+    top = 20
+    object MenuItem1: TMenuItem
+      Caption = 'Print'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Delete'
+      OnClick = MenuItem2Click
+    end
+  end
+  object PrintDialog1: TPrintDialog
+    left = 582
+    top = 282
+  end
+end
