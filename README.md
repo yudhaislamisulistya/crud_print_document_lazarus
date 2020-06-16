@@ -1,0 +1,4 @@
+# Screenshot
+| ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Halaman%20Utama.png) | ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Tambah%20Data.png) | ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Ubah%20Data.png) |
+|--|--|--|
+| ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Hapus%20Data.png) | ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Print%20Dan%20Delete.png) | ![enter image description here](https://raw.githubusercontent.com/yudhaislamisulistya/crud_print_document_lazarus/master/screenshot/Print.png) |
